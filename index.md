@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## Projects
 
-You can use the [editor on GitHub](https://github.com/ingversed/ingversed.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### versusverses
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+versusverses generates minimalist mash-ups of two or more poets, using markov chains.
 
-### Markdown
+> In twenty years I was fresh and cheerful, who but I?
+>
+> Rushes in a net deliberately cast over the terrible pain,  
+> I loved you for life, but life has quite gone by.  
+>
+> -- _Christina Rossetti versus Sylvia Plath versus Louise Glück_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A random selection of poets and their body of work is fed into the [markovify](https://github.com/jsvine/markovify) combine harvester, with each corpus' contribution to the mix weighted according to relative size. Currently, the program is configured for a 1-line/2-lines/2-lines/1-line stanza scheme, with the first and last lines acting as a refrain.  
 
-```markdown
-Syntax highlighted code block
+> Death had the Mercy, you're done with the smut and smog and smoke of our nights:  
+> 
+> They charmed it with care;  
+> You and I see the shadows falling,
+> 
+> It got up that afternoon--walked to the vibration thru the grocerystore,  
+> Thou art slave to fate, chance, kings, and none but fair,
+> 
+> Death had the Mercy, you're done with the smut and smog and smoke of our nights.  
+>
+> -- _Allen Ginsberg versus Lewis Carroll versus John Donne versus Anna Akhmatova_
 
-# Header 1
-## Header 2
-### Header 3
+#### Assembly line:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ingversed/ingversed.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Poetry corpora, scraped from [PoemHunter](https://www.poemhunter.com/)'s Top 500 Poets. 
+2. Code to read and markovify each corpus and generate new poems. 
+3. TODO: A Twitter account for publishing the poems. 
+4. TODO: A Heroku account for deployment and automation. 
+5. GOAL: The bot runs unsupervised, drunk on its freedom. 

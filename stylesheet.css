@@ -91,7 +91,7 @@ p {
 }
 
 p.poem {
-  padding-top: 0em;
+  padding-bottom: 0em;
   padding-left: 2em;
   opacity: 80%;
   border: medium double #8D0C0C;

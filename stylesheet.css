@@ -78,6 +78,7 @@ h3 {
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
   color: #8D0C0C;
 }

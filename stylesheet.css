@@ -45,7 +45,6 @@ main {
 }
 
 svg {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -118,8 +117,5 @@ p.poets {
   }
   .wrapper {
     padding-top: 10%;
-  }
-  svg {
-    width: 98%;  
   }
 }

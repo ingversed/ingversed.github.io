@@ -119,4 +119,7 @@ p.poets {
   .wrapper {
     padding-top: 10%;
   }
+  svg {
+	right: 2%;	
+  }
 }

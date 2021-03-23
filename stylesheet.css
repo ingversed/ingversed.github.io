@@ -51,6 +51,7 @@ svg {
   width: 100%;
   height: 100px;
   fill: #242424;
+  box-sizing: border-box;
 }
 
 h1, h2, h3 {

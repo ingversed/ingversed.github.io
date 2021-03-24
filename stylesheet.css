@@ -28,7 +28,6 @@ main {
   background-color: #242424;
   color: #F7F4EE;
   text-align: center;
-  justify-content: center;
 }
 
 #projects {
@@ -38,9 +37,9 @@ main {
 
 .wrapper {
   width: 100%;
-  padding: 20% 5% 20% 5%;
   align-self: center;
-}
+  padding: 105px 5%;
+ }
 
 .center {
   text-align: center;
@@ -66,15 +65,15 @@ h1, h2 {
 
 h1 {
   color: #EAE1CF;
-  font-size: 25px;
+  font-size: 3vw;  
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 2vw; 
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.5vw;
   border-bottom: thin dashed #8D0C0C;
 }
 
@@ -108,7 +107,8 @@ p.poets {
   font-size: 80%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px), 	
+	   screen and (max-height: 600px),{
   main {
     width: 96%;
     left: 2%;
@@ -116,5 +116,14 @@ p.poets {
   .column {
     width: 100%;
     height: auto;
+  }
+  h1 {
+	font-size: 6vw;  
+  }
+  h2 {
+	font-size: 5vw;  
+  }
+  h3 {
+	font-size: 4vw;  
   }
 }

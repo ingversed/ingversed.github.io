@@ -11,8 +11,7 @@ body {
 }
 
 main {
-  position: relative;
-  width: 100%;
+  background-color: #EAE1CF;
   overflow-x: hidden;
 }
 
@@ -24,7 +23,7 @@ main {
   display: flex;
 }
 
-#header {
+header {
   background-color: #242424;
   color: #F7F4EE;
   text-align: center;
@@ -116,11 +115,11 @@ figcaption::before {
 
 @media screen and (max-width: 600px), 	
        screen and (max-height: 600px),{
-  main {
-    width: 96%;
-    left: 2%;
+  header.column {
+	  width: 96%;
+	  left: 2%;
   }
-  .column {
+  #projects {
     width: 100%;
     height: auto;
   }

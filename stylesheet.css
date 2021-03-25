@@ -113,7 +113,7 @@ figcaption::before {
 }
 
 @media screen and (max-width: 600px), 	
-       screen and (max-height: 600px),{
+       screen and (max-height: 600px) {
   header.column {
     width: 96%;
     left: 2%;
@@ -122,11 +122,8 @@ figcaption::before {
     width: 100%;
     height: auto;
   }
-  h1 {
+  h1, h2 {
     font-size: 6vw;  
-  }
-  h2 {
-    font-size: 5vw;  
   }
   h3 {
     font-size: 4vw;  

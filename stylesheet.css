@@ -54,10 +54,6 @@ h1, h2 {
   font-family: 'Space Mono', Courier, monospace;
 }
 
-h1, h2 {
-  border: thin dashed #8D0C0C;
-}
-
 h1 {
   color: #DDD0B5;
   font-size: 3vw;

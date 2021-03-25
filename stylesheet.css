@@ -115,8 +115,8 @@ figcaption::before {
 @media screen and (max-width: 600px), 	
        screen and (max-height: 600px),{
   header.column {
-	  width: 96%;
-	  left: 2%;
+    width: 96%;
+    left: 2%;
   }
   #projects {
     width: 100%;

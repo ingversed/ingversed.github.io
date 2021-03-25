@@ -48,7 +48,7 @@ svg {
   height: 100px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   display: inline-block;
   padding: 5%;
   font-family: 'Space Mono', Courier, monospace;
@@ -59,15 +59,12 @@ h1, h2 {
 }
 
 h1 {
-  color: #EAE1CF;
-  font-size: 3vw;  
+  color: #DDD0B5;
+  font-size: 3vw;
+  border: thin dashed #8D0C0C;  
 }
 
 h2 {
-  font-size: 2vw; 
-}
-
-h3 {
   font-size: 1.5vw;
   padding: 0 1rem 0.5rem 1rem;
   border-bottom: thin dashed #8D0C0C;
@@ -112,9 +109,6 @@ figcaption::before {
 
 @media screen and (max-width: 1000px) {
   h2 {
-    font-size: 2.5vw;  
-  }
-  h3 {
     font-size: 2vw;  
   }
 } 
@@ -129,10 +123,10 @@ figcaption::before {
     width: 100%;
     height: auto;
   }
-  h1, h2 {
+  h1 {
     font-size: 6vw;  
   }
-  h3 {
+  h2 {
     font-size: 4vw;  
   }
   figure {

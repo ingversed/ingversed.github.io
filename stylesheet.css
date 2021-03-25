@@ -5,13 +5,14 @@ html, body, main {
 }
 
 body {
-  background-color: #F7F4EE;
+  background-color: #EAE1CF;
   font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
   font-size: 15px;
 }
 
 main {
-  background-color: #EAE1CF;
+  background-color: #F7F4EE;
+  color: #242424;
 }
 
 .column {
@@ -19,24 +20,20 @@ main {
   float: left;
   width: 50%;
   height: 100%;
-  display: flex;
+  overflow: auto;
 }
 
 header {
   background-color: #242424;
   color: #F7F4EE;
   text-align: center;
-}
-
-#projects {
-  background-color: #F7F4EE;
-  color: #242424;
+  display: table;
 }
 
 .wrapper {
-  width: 100%;
-  align-self: center;
-  padding: 105px 5%;
+  padding: 100px 5% 100px 5%;
+  display: table-cell;
+  vertical-align: middle;
  }
 
 .center {
@@ -72,6 +69,7 @@ h2 {
 
 h3 {
   font-size: 1.5vw;
+  padding: 0 1rem 0.5rem 1rem;
   border-bottom: thin dashed #8D0C0C;
 }
 
@@ -112,13 +110,22 @@ figcaption::before {
   color: #8D0C0C;
 }
 
-@media screen and (max-width: 600px), 	
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 2.5vw;  
+  }
+  h3 {
+    font-size: 2vw;  
+  }
+} 
+
+@media screen and (max-width: 800px), 	
        screen and (max-height: 600px) {
   header.column {
     width: 96%;
     left: 2%;
   }
-  #projects {
+  main.column {
     width: 100%;
     height: auto;
   }

@@ -10,17 +10,17 @@ body {
   font-size: 15px;
 }
 
-main {
-  background-color: #F7F4EE;
-  color: #242424;
-}
-
 .column {
   position: relative;
   float: left;
   width: 50%;
   height: 100%;
   overflow: auto;
+}
+
+main {
+  background-color: #F7F4EE;
+  color: #242424;
 }
 
 header {
@@ -87,16 +87,16 @@ p {
   padding-bottom: 1em;
 }
 
-figure {
-  margin: 1rem;  
-}
-
 p.poem {
   white-space: pre-line;
   padding-left: 1rem;  
   padding-bottom: 0em;  
   opacity: 80%; 
   border-left: thin dashed #8D0C0C;
+}
+
+figure {
+  margin: 1rem;  
 }
 
 figcaption {

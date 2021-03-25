@@ -91,24 +91,31 @@ p {
   padding-bottom: 1em;
 }
 
-p.poem {
-  padding-bottom: 0em;  
-  padding-left: 2em;
-  opacity: 80%;
-  border: medium double #8D0C0C;
-  border-right: 0px;
-  border-top: 0px;
-  border-bottom: 0px;
+figure {
+  margin: 1rem;  
 }
 
-p.poets {
-  padding-left: 3em;
+p.poem {
+  white-space: pre-line;
+  padding-left: 1rem;  
+  padding-bottom: 0em;  
   opacity: 80%;
+  border-left: thin dashed #8D0C0C;
+}
+
+figcaption {
+  padding-left: 1.1rem;  	
+  opacity: 85%;
   font-size: 80%;
 }
 
+figcaption::before {
+  content: "-- ";
+  color: #8D0C0C;
+}
+
 @media screen and (max-width: 600px), 	
-	   screen and (max-height: 600px),{
+       screen and (max-height: 600px),{
   main {
     width: 96%;
     left: 2%;
@@ -118,12 +125,15 @@ p.poets {
     height: auto;
   }
   h1 {
-	font-size: 6vw;  
+    font-size: 6vw;  
   }
   h2 {
-	font-size: 5vw;  
+    font-size: 5vw;  
   }
   h3 {
-	font-size: 4vw;  
+    font-size: 4vw;  
+  }
+  figure {
+    margin: 0.5rem;  
   }
 }
